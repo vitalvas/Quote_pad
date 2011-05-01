@@ -1,0 +1,17 @@
+RewriteEngine on
+
+
+RewriteRule ^quote/([0-9]+)/?$ index.php?postid=$1 [L]
+RewriteRule ^users/([0-9]+)/?$ index.php?do=users&id=$1 [L]
+RewriteRule ^best$ index.php/?act=best [L]
+RewriteRule ^bestusers$ index.php/?act=bestusers [L]
+RewriteRule ^rand$ index.php/?act=rand [L]
+RewriteRule ^abyss$ index.php/?act=abyss [L]
+RewriteRule ^users$ index.php/?do=users [L]
+RewriteRule ^addpost$ index.php/?do=addpost [L]
+
+
+
+RewriteCond %{HTTP_REFERER} (weight) [NC,OR]
+RewriteCond %{HTTP_REFERER} (drugs) [NC]
+RewriteRule .* - [F]

@@ -1,0 +1,26 @@
+body { text-align: center; }
+.title {  font-family: 'Georgia', 'Times', 'Times New Roman', serif; font-size: 21pt; height: 40px; text-align: right; }
+.title img { float: left; }
+p { margin: 0.35em 0; } 
+a { text-decoration: none; color: #33e; }
+a:hover { text-decoration: underline; color: #33e; }
+a:visited { color: #33e; }
+#page_title { margin: 20px auto; width: 820px; }
+#page { margin: 20px auto; width: 820px; }
+div.no_display { display: none; }
+div.stats {  background: #f3f3f3; padding: 5px; border: 1px dotted #999; }
+div.content { background: #f3f3f3; padding: 5px; border: 1px dotted #999;  text-align: left; }
+div.cmenu { text-align: left; }
+table.stats { width:100%; margin-left: 2px; margin-top: -2px; padding-}
+div.inform_user { font-size: 15pt; color: #6c6103; text-align: center;}
+table.user_show { border-collapse: collapse; }
+td.user_show { border: 1px dotted #999fff; vertical-align: top;}
+td.login_form { text-align: center; width: 190px; border: 1px dotted #999fff; }
+td.login_form_errors { text-align: center; width: 190px; border: 1px dotted #999fff; color: #ff0000;}
+table.login_form { border-collapse: collapse; }
+table.login_body { width: 100%; text-align: center;}
+td.register_form { width: 150px; border: 1px dotted #999fff;}
+table.register_form { border-collapse: collapse;}
+td.register_form_errors { text-align: center; width: 300px; border: 1px dotted #999fff; color: #ff0000;}
+table.user_list { border-collapse: collapse;}
+td.user_list { border: 1px dotted #999fff;}

@@ -1,0 +1,1 @@
+{lang-hello}&nbsp;<b>{username}</b>&nbsp;[<a href='/?do=logout'>{lang-log-out}</a>]&nbsp;[<a href='/?do=users&act=panel'>{lang-log-panel}</a>]

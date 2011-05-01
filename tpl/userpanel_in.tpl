@@ -1,0 +1,1 @@
+[<a href='/?do=login'>{lang-log-in}</a>]&nbsp;[<a href='/?do=register'>{lang-log-reg}</a>]

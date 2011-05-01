@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /
+Disallow: /?act=best
+Disallow: /?act=bestusers
+Disallow: /?act=rand
+Disallow: /?act=abyss
+Disallow: /?do=users
+Disallow: /?do=addpost
+Disallow: /?do=login
+Disallow: /?do=register
+Disallow: /?do=rating
+Host: bash.vitalvas.uz.ua
+Sitemap: http://bash.vitalvas.uz.ua/sitemap.xml
